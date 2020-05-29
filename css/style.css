@@ -437,6 +437,15 @@ section {
     }
 }
 
+@media only screen and (max-width: 768px){
+    .nav-link {
+        font-size: 14px;
+    }
+    .nav-item {
+        margin: 10px 30px;
+    }
+}
+
 
 /*************************************
                 Skills
@@ -546,6 +555,18 @@ section {
     }
     .skill-holder {
         margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .skill-information-inner p {
+        font-size: 12px;
+    }
+    .skill-information-inner ul li {
+        font-size: 12px;
+    }
+    .skill-information-inner h4 {
+        font-size: 18px;
     }
 }
 /*************************************
