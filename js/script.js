@@ -128,9 +128,10 @@ $('#btn-skill-ml-web').on('click', function(){
 
 $('#btn-skill-ml-tableau').on('click', function(){
     activeClassInSkills('btn-skill-ml-tableau', "ml");
-    const header = "Tableau";
-    const info = "Analysing Data with graphical tools is fun and interesting. I can use Tableau to investigate and describe data more engaging and more pleasant.";
-    changeInformationSkill('skill-ml-information', header, info);
+    const header = "Data Analysis";
+    const info = "Data Analysis and Visualisation are two major steps in machine learning algorithms. I can use programming languages such as python and R and other tools such as Tableau to achieve this goal.";
+    const items = ["Pandas / Matplotlib / Seaborn / Plotly", "ggplot", "Tableau"]
+    changeInformationSkill('skill-ml-information', header, info, items);
 });
 
 $('#btn-skill-ml-aws').on('click', function(){

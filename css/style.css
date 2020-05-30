@@ -443,6 +443,14 @@ section {
     }
     .nav-item {
         margin: 10px 30px;
+        padding: 0 10px;
+    }
+    .dropdown-item p {
+        font-size: 14px;
+    }
+    .skill-information-inner ul{
+        padding: 0;
+        list-style-position: inside;
     }
 }
 
@@ -567,6 +575,9 @@ section {
     }
     .skill-information-inner h4 {
         font-size: 18px;
+    }
+    .skill-button a {
+        font-size: 16px;
     }
 }
 /*************************************
