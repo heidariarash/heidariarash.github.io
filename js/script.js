@@ -72,7 +72,9 @@ const changeInformationSkill = (context, header, info, items=[]) => {
     itemUl.innerText = "";
     for (item of items) {
         itemLi = document.createElement("li");
-        itemLi.innerText = item;
+        emTag = document.createElement("em");
+        itemLi.appendChild(emTag);
+        emTag.innerText = item;
         itemUl.appendChild(itemLi);
     }
 }
@@ -128,9 +130,9 @@ $('#btn-skill-ml-web').on('click', function(){
 
 $('#btn-skill-ml-tableau').on('click', function(){
     activeClassInSkills('btn-skill-ml-tableau', "ml");
-    const header = "Data Analysis";
-    const info = "Data Analysis and Visualisation are two major steps in machine learning algorithms. I can use programming languages such as python and R and other tools such as Tableau to achieve this goal.";
-    const items = ["Pandas / Matplotlib / Seaborn / Plotly", "ggplot", "Tableau"]
+    const header = "Data Mining and Analysis";
+    const info = "Data Mining and Analysis are two major steps in machine learning and business intelligence. I can use programming languages such as python and R and other tools such as Tableau to extract information from data and present it graphically.";
+    const items = ["Tableau","Pandas / Matplotlib / Seaborn / Plotly", "ggplot"]
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 

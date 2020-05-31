@@ -341,9 +341,14 @@ section {
 .about-img {
     height: 284px;
     width: 200px;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px;
     margin-left: -35%;
+}
+@media only screen and (max-width: 991px){
+    .about-img {
+        margin-top: 70px;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -437,20 +442,16 @@ section {
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-height: 768px){
     .nav-link {
         font-size: 14px;
     }
     .nav-item {
-        margin: 10px 30px;
+        margin: 5px 30px;
         padding: 0 10px;
     }
     .dropdown-item p {
         font-size: 14px;
-    }
-    .skill-information-inner ul{
-        padding: 0;
-        list-style-position: inside;
     }
 }
 
@@ -549,9 +550,22 @@ section {
     font-size: 15px;
 }
 
+.skill-information-inner ul{
+    padding: 0;
+    list-style: none;
+}
+
 .skill-information-inner ul li{
     font-size: 13px;
     font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+.skill-information-inner ul li:before {
+    content: '\27A4';
+    margin-left: -20px;
+    margin-right: 10px;
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 925px){
@@ -561,8 +575,9 @@ section {
         -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
         box-shadow: 0 0 20px rgba(0,0,0,0.2);
     }
-    .skill-holder {
+    .skill-information {
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
@@ -578,6 +593,15 @@ section {
     }
     .skill-button a {
         font-size: 16px;
+    }
+    .skill-information-inner {
+        padding: 20px 15px;
+    }
+    .skill-holder {
+        margin-top: 10px;
+    }
+    .skill-information-inner ul li:before {
+        font-size: 12px;
     }
 }
 /*************************************
