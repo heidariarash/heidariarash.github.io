@@ -20,7 +20,7 @@ $(function () {
              Navigation
 *************************************/
 $(function() {
-    if (($(window).scrollTop() > 200) || ($(window).width() < 992)) {
+    if (($(window).scrollTop() > 200) || ($(window).width() < 975)) {
         $("nav").addClass("nav-back");
     }
     else {
@@ -28,7 +28,7 @@ $(function() {
     }
 
     $(window).scroll(function() {
-        if (($(window).scrollTop() > 200) || ($(window).width() < 992)) {
+        if (($(window).scrollTop() > 200) || ($(window).width() < 975)) {
             $("nav").addClass("nav-back");
         }
         else {
@@ -37,7 +37,7 @@ $(function() {
     })
 
     $(window).resize(function() {
-        if (($(window).scrollTop() > 200) || ($(window).width() < 992)) {
+        if (($(window).scrollTop() > 200) || ($(window).width() < 975)) {
             $("nav").addClass("nav-back");
         }
         else {
