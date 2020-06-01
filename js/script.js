@@ -131,8 +131,8 @@ $('#btn-skill-ml-web').on('click', function(){
 $('#btn-skill-ml-tableau').on('click', function(){
     activeClassInSkills('btn-skill-ml-tableau', "ml");
     const header = "Data Mining and Analysis";
-    const info = "Data Mining and Analysis are two major steps in machine learning and business intelligence. I can use programming languages such as python and R and other tools such as Tableau to extract information from data and present it graphically.";
-    const items = ["Tableau","Pandas / Matplotlib / Seaborn / Plotly", "ggplot"]
+    const info = "Data Mining and Analysis are two major steps in business intelligence. I can use programming languages such as python and R and other tools such as Tableau to extract information from data and present the results graphically.";
+    const items = ["Tableau", "RapidMiner","Pandas / Matplotlib / Seaborn / Plotly", "ggplot"]
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 

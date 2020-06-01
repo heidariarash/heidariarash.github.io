@@ -73,6 +73,17 @@ section {
     margin-left: -100px;
 }
 
+
+@media only screen and (max-width: 768px){
+    #status {
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+}
+
 /*************************************
              Home Page
 *************************************/
@@ -210,6 +221,12 @@ section {
 }
 .content-box-sm {
     padding: 10px 0;
+}
+
+@media only screen and (max-width: 768px){
+    .content-box-lg {
+        padding: 50px 0;
+    }
 }
 
 /*************************************
@@ -353,13 +370,20 @@ section {
 
 @media only screen and (max-width: 768px){
     .about-img {
-        margin: 20px auto 0 auto;
+        margin: 40px auto 0 auto;
     }
     .about-status-h5-small {
         display: block;
     }
     .about-status-h5-big {
         display: none;
+    }
+    .about-status {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #about-right {
+        margin-top: 20px;
     }
 }
 
@@ -442,7 +466,7 @@ section {
     }
 }
 
-@media only screen and (max-height: 768px){
+@media only screen and (max-height: 600px) and (max-width: 992px){
     .nav-link {
         font-size: 14px;
     }
