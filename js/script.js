@@ -132,14 +132,14 @@ $('#btn-skill-ml-tableau').on('click', function(){
     activeClassInSkills('btn-skill-ml-tableau', "ml");
     const header = "Data Mining and Analysis";
     const info = "Data Mining and Analysis are two major steps in business intelligence. I can use programming languages such as python and R and other tools such as Tableau to extract information from data and present the results graphically.";
-    const items = ["Tableau", "RapidMiner","Pandas / Matplotlib / Seaborn / Plotly", "ggplot"]
+    const items = ["Tableau", "RapidMiner / KNIME","Pandas / Matplotlib / Seaborn / Plotly", "ggplot"]
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 
 $('#btn-skill-ml-aws').on('click', function(){
     activeClassInSkills('btn-skill-ml-aws', "ml");
     const header = "Amazon Web Services";
-    const info = "AWS is one of the complete cloud services, and many developers use it for many purposes. I'm aware that the only purpose of AWS is not for machine learning, but I'm familiar with its machine learning services mostly.";
+    const info = "AWS is one of the best cloud services, and many developers use it for many purposes. I'm aware that the only purpose of AWS is not for machine learning, but I'm mainly familiar with its machine learning services.";
     const items = ["S3 / EC2 / IAM / RDS", "SageMaker / Athena / Glue / Kineses / QuickSight", "Rekongnition / Lex / Comprehend / ..."];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
@@ -147,7 +147,7 @@ $('#btn-skill-ml-aws').on('click', function(){
 $('#btn-skill-programming-lang').on('click', function(){
     activeClassInSkills('btn-skill-programming-lang', "programming");
     const header = "Programming Languages";
-    const info = "I know a lot of different Programming Languages for different purposes.";
+    const info = "I know many different Programming Languages for different purposes.";
     const items = ["Python", "C / C++ / Cuda C", "JavaScript", "R", "Matlab"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
@@ -155,8 +155,8 @@ $('#btn-skill-programming-lang').on('click', function(){
 $('#btn-skill-programming-gui').on('click', function(){
     activeClassInSkills('btn-skill-programming-gui', "programming");
     const header = "GUI Design";
-    const info = "I enjoy designing GUI for desktop and Smartphones. I needed GUI Programming to connect my IoT projects with smartphones or other embedded systems with desktop, to represent the functionality of the developed project visually and more delightful.";
-    const items = ["PyQt / Qt", "TKinter", "React Native"];
+    const info = "I enjoy designing GUI for desktop and Smartphones. I needed GUI Programming to connect my IoT projects with smartphones or other embedded systems with desktop to represent the functionality of the developed project visually and more delightful.";
+    const items = ["PyQt / Qt", "TKinter", "Electron", "React Native"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
@@ -164,7 +164,7 @@ $('#btn-skill-programming-web').on('click', function(){
     activeClassInSkills('btn-skill-programming-web', "programming");
     const header = "Web Development";
     const info = "With IoT projects, sometimes it's a must to control the designed system over the Internet. Because of that, I have developed my web development skills. I don't call myself a full-stack developer, but I have the required knowledge to be one. I've designed this website myself.";
-    const items = ["HTML / CSS / JavaScript", "Flask / NodeJS"];
+    const items = ["HTML / CSS / JavaScript", "Flask / NodeJS", "RESTful"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
@@ -186,14 +186,14 @@ $('#btn-skill-others-network').on('click', function(){
 $('#btn-skill-others-comptia').on('click', function(){
     activeClassInSkills('btn-skill-others-comptia', "others");
     const header = "CompTIA A+";
-    const info = "Well, I have never taken the CompTIA A+ test. I just like Geek things and took two courses about it on Udemy.";
+    const info = "Well, I have never taken the CompTIA A+ test. I just like Geek stuff and took two courses about it on Udemy.";
     changeInformationSkill('skill-others-information', header, info);
 });
 
 $('#btn-skill-others-linux').on('click', function(){
     activeClassInSkills('btn-skill-others-linux', "others");
     const header = "Linux";
-    const info = "Because Raspberry Pi uses a specific distribution of Linux, I had to learn it. I have experience with Ubuntu, Mint, Suse, and of course, Raspbian. I'm not a professional terminal user, but I know the basic commands.";
+    const info = "Because Raspberry Pi uses a specific distribution of Linux, I had to learn it. I have experience using Ubuntu, Kali, Mint, Suse, and of course, Raspbian. I'm not a professional terminal user, but I know the basic commands.";
     changeInformationSkill('skill-others-information', header, info);
 });
 
