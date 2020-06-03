@@ -170,9 +170,9 @@ $('#btn-skill-programming-web').on('click', function(){
 
 $('#btn-skill-programming-db').on('click', function(){
     activeClassInSkills('btn-skill-programming-db', "programming");
-    const header = "Other Skills";
-    const info = "I am completely familiar with Git. Other than that, I have experience working with both relational and non-relational databases.";
-    const items = ["Git", "SQL", "MongoDB"];
+    const header = "Data Base";
+    const info = "I have experience working with both relational and non-relational databases.";
+    const items = ["SQL", "MongoDB"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
@@ -180,6 +180,13 @@ $('#btn-skill-others-network').on('click', function(){
     activeClassInSkills('btn-skill-others-network', "others");
     const header = "Network";
     const info = "I think every electronics engineer should familiarise himself/herself with Networking. I have a solid understanding of how Networking and the Internet work, how routers use IP addresses to route, etc. I should state that I don't know much about configuring Cisco Routers (CCNA).";
+    changeInformationSkill('skill-others-information', header, info);
+});
+
+$('#btn-skill-others-git').on('click', function(){
+    activeClassInSkills('btn-skill-others-git', "others");
+    const header = "Git";
+    const info = "I have a solid understanding of Git and how it works. I usually work with Git with the help of CLI but I can imagine myself using the Git GUI as well.";
     changeInformationSkill('skill-others-information', header, info);
 });
 
