@@ -163,8 +163,8 @@ $('#btn-skill-programming-gui').on('click', function(){
 $('#btn-skill-programming-web').on('click', function(){
     activeClassInSkills('btn-skill-programming-web', "programming");
     const header = "Web Development";
-    const info = "With IoT projects, sometimes it's a must to control the designed system over the Internet. Because of that, I have developed my web development skills. I don't call myself a full-stack developer, but I have the required knowledge to be one. I've designed this website myself.";
-    const items = ["HTML / CSS / JavaScript", "Flask / NodeJS", "RESTful"];
+    const info = "With IoT projects, sometimes it's a must to control the designed system over the Internet. Because of that, I have developed my web development skills. I don't call myself a full-stack developer, but I have the required knowledge to be one. I've designed this website myself as well.";
+    const items = ["HTML / CSS / JavaScript", "Flask", "RESTful"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 

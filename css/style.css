@@ -445,7 +445,8 @@ section {
     padding: 10px;
 }
 
-.dropdown-item:hover {
+.dropdown-item:hover,
+.dropdown-item:focus {
     background: #F4F4F4;
     border-radius: 15px;
 }
