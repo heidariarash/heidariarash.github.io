@@ -81,24 +81,24 @@ const changeInformationSkill = (context, header, info, items=[]) => {
 
 $('#btn-skill-electronics-micro').on('click', function(){
     activeClassInSkills('btn-skill-electronics-micro', "electronics");
-    const header = "Microcontrollers";
-    const info = "I have a solid understanding of the hardware and functionality of Microcontrollers. Other than bare-metal C or C++ Programming, I have experience utilising other tools such as FreeRTOS in ARM and ESP8266 Microcontrollers.";
+    const header = "Mikrocontroller";
+    const info = "Ich habe ein solides Verständnis für die Hardware und Funktionalität von Mikrocontrollern. Neben der Bare-Metal-C- oder C ++ - Programmierung habe ich Erfahrung mit anderen Tools wie FreeRTOS in ARM- und ESP8266-Mikrocontrollern.";
     const items = ["ARM", "AVR / PIC / Arduino", "FreeRTOS", "C / C++ / Assembly"];
     changeInformationSkill('skill-electronics-information', header, info, items);
 });
 
 $('#btn-skill-electronics-pcb').on('click', function(){
     activeClassInSkills('btn-skill-electronics-pcb', "electronics");
-    const header = "PCB Design";
-    const info = "Due to a lack of performed projects, I am not a skilled PCB Designer, but I am completely familiar with PCB Design tools such as Altium Designer.";
+    const header = "Leiterplatten-Design";
+    const info = "Aufgrund des Mangels an durchgeführten Projekten bin ich kein erfahrener PCB-Designer, aber ich bin mit PCB-Design-Tools wie Altium Designer vollständig vertraut.";
     const items = ["Altium Desinger"];
     changeInformationSkill('skill-electronics-information', header, info, items);
 });
 
 $('#btn-skill-electronics-iot').on('click', function(){
     activeClassInSkills('btn-skill-electronics-iot', "electronics");
-    const header = "Internet of Things";
-    const info = "I carried out some IoT-based Projects using ESP8266, Arduino, and Raspberry Pi. I'm aware of IoT Protocols such as Zigbee, WiFi, Bluetooth, etc.";
+    const header = "Internet der Dinge";
+    const info = "Ich habe einige IoT-basierte Projekte mit ESP8266, Arduino und Raspberry Pi durchgeführt. Mir sind IoT-Protokolle wie ZigBee, WiFi, Bluetooth usw. bekannt.";
     const items = ["Raspberry Pi", "Arduino / ESP8266", "Bluetooth / Zigbee / Wifi / ..."];
     changeInformationSkill('skill-electronics-information', header, info, items);
 });
@@ -106,15 +106,15 @@ $('#btn-skill-electronics-iot').on('click', function(){
 $('#btn-skill-electronics-fpga').on('click', function(){
     activeClassInSkills('btn-skill-electronics-fpga', "electronics");
     const header = "FPGA";
-    const info = "Similar to PCB Design, due to lack of performed projects, I'm not a skilled FPGA developer, but I know Verilog and VHDL.";
+    const info = "Ähnlich wie Leiterplatten-Design bin ich aufgrund fehlender Projekte kein erfahrener FPGA-Entwickler, aber ich kenne Verilog und VHDL.";
     const items = ["VHDL", "Verilog"];
     changeInformationSkill('skill-electronics-information', header, info, items);
 });
 
 $('#btn-skill-ml-ml').on('click', function(){
     activeClassInSkills('btn-skill-ml-ml', "ml");
-    const header = "Machine Learning";
-    const info = "I have studied more than 3 years about Machine Learning and Deep Learning algorithms. R and Python are the languages I use to develop artificial intelligence projects.";
+    const header = "Maschinelles Lernen";
+    const info = "Ich habe mich mehr als 3 Jahre lang nach Algorithmen für maschinelles Lernen und Deep Learning erkundigt. R und Python sind die Sprachen, mit denen ich Projekte für künstliche Intelligenz entwickle.";
     const items = ["R / Python", "Sci-Kit Learn / MLlib", "TensorFlow / PyTorch"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
@@ -122,7 +122,7 @@ $('#btn-skill-ml-ml').on('click', function(){
 $('#btn-skill-ml-web').on('click', function(){
     activeClassInSkills('btn-skill-ml-web', "ml");
     const header = "Web Crawling";
-    const info = "As I had HTML/CSS knowledge beforehand, learning Web Crawling was not a great effort for me. I can use Scrapy, Selenium, and Beautiful Soup to extract information from different websites.";
+    const info = "Da ich zuvor HTML / CSS-Kenntnisse hatte, war das Erlernen des Web-Crawlings für mich keine große Anstrengung. Ich kann Scrapy, Selenium und Beautiful Soup verwenden, um Informationen von verschiedenen Websites zu extrahieren.";
     const items = ["Scrapy", "Selenium", "Beautiful Soup"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
@@ -130,24 +130,24 @@ $('#btn-skill-ml-web').on('click', function(){
 
 $('#btn-skill-ml-tableau').on('click', function(){
     activeClassInSkills('btn-skill-ml-tableau', "ml");
-    const header = "Data Mining and Analysis";
-    const info = "Data Mining and Analysis are two major steps in business intelligence. I can use programming languages such as python and R and other tools such as Tableau to extract information from data and present the results graphically.";
+    const header = "Data Mining und Analyse";
+    const info = "Data Mining und Analyse sind zwei wichtige Schritte in der Business Intelligence. Ich kann Programmiersprachen wie Python und R und andere Tools wie Tableau verwenden, um Informationen aus Daten zu extrahieren und die Ergebnisse grafisch darzustellen.";
     const items = ["Tableau", "RapidMiner / KNIME","Pandas / Matplotlib / Seaborn / Plotly", "ggplot"]
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 
 $('#btn-skill-ml-optimization').on('click', function(){
     activeClassInSkills('btn-skill-ml-optimization', "ml");
-    const header = "Optimization";
-    const info = "I'm familiar with optimization algorithms and evolutionary algorithms.";
+    const header = "Optimierung";
+    const info = "Ich bin mit Optimierungsalgorithmen und evolutionären Algorithmen vertraut.";
     const items = ["Gradient Descent", "Particle Swarm Optimization", "Genetic Algorithm"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 
 $('#btn-skill-programming-lang').on('click', function(){
     activeClassInSkills('btn-skill-programming-lang', "programming");
-    const header = "Programming Languages";
-    const info = "I know many different Programming Languages for different purposes.";
+    const header = "Programmiersprachen";
+    const info = "Ich kenne viele verschiedene Programmiersprachen für verschiedene Zwecke.";
     const items = ["Python", "C / C++ / Cuda C", "JavaScript", "R", "Matlab"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
@@ -155,59 +155,59 @@ $('#btn-skill-programming-lang').on('click', function(){
 $('#btn-skill-programming-gui').on('click', function(){
     activeClassInSkills('btn-skill-programming-gui', "programming");
     const header = "GUI Design";
-    const info = "I enjoy designing GUI for desktop and Smartphones. I needed GUI Programming to connect my IoT projects with smartphones or other embedded systems with desktop to represent the functionality of the developed project visually and more delightful.";
+    const info = "Ich entwerfe gerne GUI für Desktop und Smartphones. Ich brauchte GUI-Programmierung, um meine IoT-Projekte mit Smartphones oder anderen eingebetteten Systemen mit Desktop zu verbinden und die Funktionalität des entwickelten Projekts visuell und ansprechender darzustellen.";
     const items = ["PyQt / Qt", "TKinter", "Electron", "React Native"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
 $('#btn-skill-programming-web').on('click', function(){
     activeClassInSkills('btn-skill-programming-web', "programming");
-    const header = "Web Development";
-    const info = "With IoT projects, sometimes it's a must to control the designed system over the Internet. Because of that, I have developed my web development skills. I don't call myself a full-stack developer, but I have the required knowledge to be one. I've designed this website myself as well.";
+    const header = "Webentwicklung";
+    const info = "Bei IoT-Projekten ist es manchmal ein Muss, das entworfene System über das Internet zu steuern. Aus diesem Grund habe ich meine Webentwicklungsfähigkeiten entwickelt. Ich nenne mich nicht Full-Stack-Entwickler, aber ich habe das erforderliche Wissen, um einer zu sein. Ich habe diese Website auch selbst gestaltet.";
     const items = ["HTML / CSS / JavaScript", "Flask", "RESTful"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
 $('#btn-skill-programming-db').on('click', function(){
     activeClassInSkills('btn-skill-programming-db', "programming");
-    const header = "Data Base";
-    const info = "I have experience working with both relational and non-relational databases.";
+    const header = "Datenbank";
+    const info = "Ich habe Erfahrung nich nur mit relational, sondern auch mit non-relational Datenbanken.";
     const items = ["SQL", "MongoDB"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
 $('#btn-skill-others-network').on('click', function(){
     activeClassInSkills('btn-skill-others-network', "others");
-    const header = "Network";
-    const info = "I think every electronics engineer should familiarise himself/herself with Networking. I have a solid understanding of how Networking and the Internet work, how routers use IP addresses to route, etc. I should state that I don't know much about configuring Cisco Routers (CCNA).";
+    const header = "Vernetzung";
+    const info = "Ich denke, jeder Elektrotechnikingenieur sollte sich mit Networking vertraut machen. Ich habe ein gutes Verständnis dafür, wie Netzwerke und Internet funktionieren, wie Router IP-Adressen zum Weiterleiten verwenden usw. Ich sollte sagen, dass ich nicht viel über die Konfiguration von Cisco Routern (CCNA) weiß.";
     changeInformationSkill('skill-others-information', header, info);
 });
 
 $('#btn-skill-others-git').on('click', function(){
     activeClassInSkills('btn-skill-others-git', "others");
     const header = "Git";
-    const info = "I have a solid understanding of Git and how it works. I usually work with Git with the help of CLI but I can imagine myself using the Git GUI as well.";
+    const info = "Ich habe ein klares Verständnis von Git und wie es funktioniert. Normalerweise arbeite ich mit Git mithilfe von CLI, aber ich kann auch die Git-GUI verwenden.";
     changeInformationSkill('skill-others-information', header, info);
 });
 
 $('#btn-skill-others-comptia').on('click', function(){
     activeClassInSkills('btn-skill-others-comptia', "others");
     const header = "CompTIA A+";
-    const info = "Well, I have never taken the CompTIA A+ test. I just like Geek stuff and took two courses about it on Udemy.";
+    const info = "Ich habe den CompTIA A + Test noch nie gemacht. Ich mag nur Geek-Sachen und habe zwei Kurse über Udemy belegt.";
     changeInformationSkill('skill-others-information', header, info);
 });
 
 $('#btn-skill-others-linux').on('click', function(){
     activeClassInSkills('btn-skill-others-linux', "others");
     const header = "Linux";
-    const info = "Because Raspberry Pi uses a specific distribution of Linux, I had to learn it. I have experience using Ubuntu, Kali, Mint, Suse, and of course, Raspbian. I'm not a professional terminal user, but I know the basic commands.";
+    const info = "Da Raspberry Pi eine bestimmte Linux-Distribution verwendet, musste ich es lernen. Ich habe Erfahrung mit Ubuntu, Kali, Mint, Suse und natürlich Raspbian. Ich bin kein professioneller Terminalbenutzer, aber ich kenne die grundlegenden Befehle.";
     changeInformationSkill('skill-others-information', header, info);
 });
 
 $('#btn-skill-others-aws').on('click', function(){
     activeClassInSkills('btn-skill-others-aws', "others");
     const header = "Amazon Web Services";
-    const info = "AWS is one of the best cloud services, and many developers use it for many purposes. I'm aware that the only purpose of AWS is not for machine learning, but I'm mainly familiar with its machine learning services.";
+    const info = "AWS ist einer der besten Cloud-Services und wird von vielen Entwicklern für viele Zwecke verwendet. Ich bin mir bewusst, dass der einzige Zweck von AWS nicht das maschinelle Lernen ist, aber ich bin hauptsächlich mit den Diensten für maschinelles Lernen vertraut.";
     const items = ["S3 / EC2 / IAM / RDS", "SageMaker / Athena / Glue / Kineses / QuickSight", "Rekongnition / Lex / Comprehend / ..."];
     changeInformationSkill('skill-others-information', header, info, items);
 });
@@ -215,29 +215,29 @@ $('#btn-skill-others-aws').on('click', function(){
 $('#btn-skill-others-office').on('click', function(){
     activeClassInSkills('btn-skill-others-office', "others");
     const header = "Microsoft Office";
-    const info = "I use Microsoft Word, Excel, and Powerpoint. I really can't imagine another program for word processing and slideshow, so I took courses to master them.";
+    const info = "Ich verwende Microsoft Word, Excel und Powerpoint. Ich kann mir wirklich kein anderes Programm für Textverarbeitung und Diashow vorstellen, also habe ich Kurse besucht, um sie zu beherrschen.";
     const items = ["Microsoft Office", "Microsoft Excel", "Microsoft Powerpoint"];
     changeInformationSkill('skill-others-information', header, info, items);
 });
 
 $('#btn-skill-languages-persian').on('click', function(){
     activeClassInSkills('btn-skill-languages-persian', "languages");
-    const header = "Persian";
-    const info = "Persian is my mother tongue.";
+    const header = "Persisch";
+    const info = "Persisch ist meine Muttersprache.";
     changeInformationSkill('skill-languages-information', header, info);
 });
 
 $('#btn-skill-languages-english').on('click', function(){
     activeClassInSkills('btn-skill-languages-english', "languages");
-    const header = "English";
-    const info = "I consider myself as a professional English speaker.";
+    const header = "Englisch";
+    const info = "Ich betrachte mich als professionellen englischen Sprecher.";
     changeInformationSkill('skill-languages-information', header, info);
 });
 
 $('#btn-skill-languages-german').on('click', function(){
     activeClassInSkills('btn-skill-languages-german', "languages");
-    const header = "German";
-    const info = "I consider myself as a professional German speaker.";
+    const header = "Deutsch";
+    const info = "Ich betrachte mich als professionellen deutschen Sprecher.";
     changeInformationSkill('skill-languages-information', header, info);
 });
 
