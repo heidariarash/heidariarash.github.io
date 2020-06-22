@@ -212,14 +212,6 @@ $('#btn-skill-others-aws').on('click', function(){
     changeInformationSkill('skill-others-information', header, info, items);
 });
 
-$('#btn-skill-others-office').on('click', function(){
-    activeClassInSkills('btn-skill-others-office', "others");
-    const header = "Microsoft Office";
-    const info = "Ich verwende Microsoft Word, Excel und Powerpoint. Ich kann mir wirklich kein anderes Programm für Textverarbeitung und Diashow vorstellen, also habe ich Kurse besucht, um sie zu beherrschen.";
-    const items = ["Microsoft Office", "Microsoft Excel", "Microsoft Powerpoint"];
-    changeInformationSkill('skill-others-information', header, info, items);
-});
-
 $('#btn-skill-languages-persian').on('click', function(){
     activeClassInSkills('btn-skill-languages-persian', "languages");
     const header = "Persisch";
