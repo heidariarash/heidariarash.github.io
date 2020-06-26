@@ -115,7 +115,7 @@ $('#btn-skill-ml-ml').on('click', function(){
     activeClassInSkills('btn-skill-ml-ml', "ml");
     const header = "Maschinelles Lernen";
     const info = "Ich habe mich mehr als 3 Jahre lang nach Algorithmen für maschinelles Lernen und Deep Learning erkundigt. R und Python sind die Sprachen, mit denen ich Projekte für künstliche Intelligenz entwickle.";
-    const items = ["R / Python", "Sci-Kit Learn / MLlib", "TensorFlow / PyTorch"];
+    const items = ["R / Python", "Sci-Kit Learn / MLlib", "TensorFlow / PyTorch", "OpenCV"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 
@@ -156,7 +156,7 @@ $('#btn-skill-programming-gui').on('click', function(){
     activeClassInSkills('btn-skill-programming-gui', "programming");
     const header = "GUI Design";
     const info = "Ich entwerfe gerne GUI für Desktop und Smartphones. Ich brauchte GUI-Programmierung, um meine IoT-Projekte mit Smartphones oder anderen eingebetteten Systemen mit Desktop zu verbinden und die Funktionalität des entwickelten Projekts visuell und ansprechender darzustellen.";
-    const items = ["PyQt / Qt", "TKinter", "Electron", "React Native"];
+    const items = ["PyQt / Qt / QML", "TKinter", "Electron", "React Native"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
@@ -179,7 +179,7 @@ $('#btn-skill-programming-db').on('click', function(){
 $('#btn-skill-others-network').on('click', function(){
     activeClassInSkills('btn-skill-others-network', "others");
     const header = "Vernetzung";
-    const info = "Ich denke, jeder Elektrotechnikingenieur sollte sich mit Networking vertraut machen. Ich habe ein gutes Verständnis dafür, wie Netzwerke und Internet funktionieren, wie Router IP-Adressen zum Weiterleiten verwenden usw. Ich sollte sagen, dass ich nicht viel über die Konfiguration von Cisco Routern (CCNA) weiß.";
+    const info = "Ich denke, jeder Elektrotechnikingenieur sollte sich mit Networking vertraut machen. Ich habe ein gutes Verständnis dafür, wie Netzwerke und Internet funktionieren, wie Router IP-Adressen zum Weiterleiten verwenden usw. Ich bin auch mit Kryptografie und Netzwerksicherheitsprotokollen wie SSL / TLS und IPSec vertraut. Ich sollte sagen, dass ich nicht viel über die Konfiguration von Cisco Routern (CCNA) weiß.";
     changeInformationSkill('skill-others-information', header, info);
 });
 

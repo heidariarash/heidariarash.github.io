@@ -115,7 +115,7 @@ $('#btn-skill-ml-ml').on('click', function(){
     activeClassInSkills('btn-skill-ml-ml', "ml");
     const header = "Machine Learning";
     const info = "I have studied more than 3 years about Machine Learning and Deep Learning algorithms. R and Python are the languages I use to develop artificial intelligence projects.";
-    const items = ["R / Python", "Sci-Kit Learn / MLlib", "TensorFlow / PyTorch"];
+    const items = ["R / Python", "Sci-Kit Learn / MLlib", "TensorFlow / PyTorch", "OpenCV"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 
@@ -156,7 +156,7 @@ $('#btn-skill-programming-gui').on('click', function(){
     activeClassInSkills('btn-skill-programming-gui', "programming");
     const header = "GUI Design";
     const info = "I enjoy designing GUI for desktop and Smartphones. I needed GUI Programming to connect my IoT projects with smartphones or other embedded systems with desktop to represent the functionality of the developed project visually and more delightful.";
-    const items = ["PyQt / Qt", "TKinter", "Electron", "React Native"];
+    const items = ["PyQt / Qt / QML", "TKinter", "Electron", "React Native"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
@@ -179,7 +179,7 @@ $('#btn-skill-programming-db').on('click', function(){
 $('#btn-skill-others-network').on('click', function(){
     activeClassInSkills('btn-skill-others-network', "others");
     const header = "Network";
-    const info = "I think every electronics engineer should familiarise himself/herself with Networking. I have a solid understanding of how Networking and the Internet work, how routers use IP addresses to route, etc. I should state that I don't know much about configuring Cisco Routers (CCNA).";
+    const info = "I think every electronics engineer should familiarise himself/herself with Networking. I have a solid understanding of how Networking and the Internet work, how routers use IP addresses to route, etc. I'm also quite familiar with cryptography and network security protocols such as SSL/TLS and IPSec. I should state that I don't know much about configuring Cisco Routers (CCNA).";
     changeInformationSkill('skill-others-information', header, info);
 });
 
