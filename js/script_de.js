@@ -83,7 +83,7 @@ $('#btn-skill-electronics-micro').on('click', function(){
     activeClassInSkills('btn-skill-electronics-micro', "electronics");
     const header = "Mikrocontroller";
     const info = "Ich habe ein solides Verständnis für die Hardware und Funktionalität von Mikrocontrollern. Neben der Bare-Metal-C- oder C ++ - Programmierung habe ich Erfahrung mit anderen Tools wie FreeRTOS in ARM- und ESP8266-Mikrocontrollern.";
-    const items = ["ARM", "AVR / PIC / Arduino", "FreeRTOS", "C / C++ / Assembly"];
+    const items = ["ARM", "AVR / PIC / Arduino", "FreeRTOS"];
     changeInformationSkill('skill-electronics-information', header, info, items);
 });
 
@@ -114,8 +114,8 @@ $('#btn-skill-electronics-fpga').on('click', function(){
 $('#btn-skill-ml-ml').on('click', function(){
     activeClassInSkills('btn-skill-ml-ml', "ml");
     const header = "Maschinelles Lernen";
-    const info = "Ich habe mich mehr als 3 Jahre lang nach Algorithmen für maschinelles Lernen und Deep Learning erkundigt. R und Python sind die Sprachen, mit denen ich Projekte für künstliche Intelligenz entwickle.";
-    const items = ["R / Python", "Sci-Kit Learn / MLlib", "TensorFlow / PyTorch", "OpenCV"];
+    const info = "Ich habe mich mehr als 2 Jahre lang nach Algorithmen für maschinelles Lernen und Deep Learning erkundigt. Außerdem habe ich ein solides Verständnis für traditionelle Bildverarbeitungstechniken.";
+    const items = ["Sci-Kit Learn / MLlib", "TensorFlow / PyTorch", "OpenCV"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 
@@ -148,7 +148,7 @@ $('#btn-skill-programming-lang').on('click', function(){
     activeClassInSkills('btn-skill-programming-lang', "programming");
     const header = "Programmiersprachen";
     const info = "Ich kenne viele verschiedene Programmiersprachen für verschiedene Zwecke.";
-    const items = ["Python", "C / C++ / Cuda C", "JavaScript", "R", "Matlab"];
+    const items = ["Python", "C / C++ / Cuda C", "JavaScript", "R", "Matlab", "Assembly"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
@@ -192,8 +192,9 @@ $('#btn-skill-others-git').on('click', function(){
 
 $('#btn-skill-others-comptia').on('click', function(){
     activeClassInSkills('btn-skill-others-comptia', "others");
-    const header = "CompTIA A+";
-    const info = "Ich habe den CompTIA A + Test noch nie gemacht. Ich mag nur Geek-Sachen und habe zwei Kurse über Udemy belegt.";
+    const header = "Agile Softwareentwicklung";
+    const info = "Ich habe kürzlich über die Agile Methodik und ihre Frameworks studiert. Meiner Meinung nach ist Agile ausgezeichnet und ich kann mich an ein Team anpassen, das diese Art von Methodik für die Entwicklung verwendet.";
+    const items = ["Agile Methodik", "Scrum", "Kanban"];
     changeInformationSkill('skill-others-information', header, info);
 });
 
