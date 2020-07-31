@@ -90,7 +90,7 @@ $('#btn-skill-electronics-micro').on('click', function(){
 $('#btn-skill-electronics-pcb').on('click', function(){
     activeClassInSkills('btn-skill-electronics-pcb', "electronics");
     const header = "Leiterplatten-Design";
-    const info = "Aufgrund des Mangels an durchgeführten Projekten bin ich kein erfahrener PCB-Designer, aber ich bin mit PCB-Design-Tools wie Altium Designer vollständig vertraut.";
+    const info = "Ich bin mit Altium Designer als PCB-Design-Tool ziemlich vertraut. Ich bin in der Lage, Schemata und Footprints für verschiedene Elemente in dieser Software zu entwerfen, den endgültigen Schaltplan zu zeichnen und die Leiterplatte selbst mithilfe dieser Software zu entwerfen.";
     const items = ["Altium Desinger"];
     changeInformationSkill('skill-electronics-information', header, info, items);
 });
@@ -114,8 +114,8 @@ $('#btn-skill-electronics-fpga').on('click', function(){
 $('#btn-skill-ml-ml').on('click', function(){
     activeClassInSkills('btn-skill-ml-ml', "ml");
     const header = "Maschinelles Lernen";
-    const info = "Ich habe mich mehr als 2 Jahre lang nach Algorithmen für maschinelles Lernen und Deep Learning erkundigt. Außerdem habe ich ein solides Verständnis für traditionelle Bildverarbeitungstechniken.";
-    const items = ["Sci-Kit Learn / MLlib", "TensorFlow / PyTorch", "OpenCV"];
+    const info = "Ich mag künstliche Intelligenz sehr gern. Daher habe ich die verwandten Algorithmen studiert, um ein Meister in diesem Bereich zu werden. Algorithmen zum klassischen maschinellen Lernen, Deep Learning, bestärkenden Lernen und Computerlinguistik sind die Hauptthemen, über die ich in den letzten Jahren studiert habe. Ich habe auch die Erfahrung, Studenten einige dieser Algorithmen beizubringen.";
+    const items = ["Sci-Kit Learn / MLlib", "TensorFlow / PyTorch", "OpenCV", "NLTK / spaCy"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 
@@ -176,13 +176,6 @@ $('#btn-skill-programming-db').on('click', function(){
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
-$('#btn-skill-others-network').on('click', function(){
-    activeClassInSkills('btn-skill-others-network', "others");
-    const header = "Vernetzung";
-    const info = "Ich denke, jeder Elektrotechnikingenieur sollte sich mit Networking vertraut machen. Ich habe ein gutes Verständnis dafür, wie Netzwerke und Internet funktionieren, wie Router IP-Adressen zum Weiterleiten verwenden usw. Ich bin auch mit Kryptografie und Netzwerksicherheitsprotokollen wie SSL / TLS und IPSec vertraut. Ich sollte sagen, dass ich nicht viel über die Konfiguration von Cisco Routern (CCNA) weiß.";
-    changeInformationSkill('skill-others-information', header, info);
-});
-
 $('#btn-skill-others-git').on('click', function(){
     activeClassInSkills('btn-skill-others-git', "others");
     const header = "Git";
@@ -194,7 +187,7 @@ $('#btn-skill-others-comptia').on('click', function(){
     activeClassInSkills('btn-skill-others-comptia', "others");
     const header = "Agile Softwareentwicklung";
     const info = "Ich habe kürzlich über die Agile Methodik und ihre Frameworks studiert. Meiner Meinung nach ist Agile ausgezeichnet und ich kann mich an ein Team anpassen, das diese Art von Methodik für die Entwicklung verwendet.";
-    const items = ["Agile Methodik", "Scrum", "Kanban"];
+    const items = ["Agile Methodik", "Scrum", "Kanban", "Jira"];
     changeInformationSkill('skill-others-information', header, info);
 });
 

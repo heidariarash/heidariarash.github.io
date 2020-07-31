@@ -90,7 +90,7 @@ $('#btn-skill-electronics-micro').on('click', function(){
 $('#btn-skill-electronics-pcb').on('click', function(){
     activeClassInSkills('btn-skill-electronics-pcb', "electronics");
     const header = "PCB Design";
-    const info = "Due to a lack of performed projects, I am not a skilled PCB Designer, but I am completely familiar with PCB Design tools such as Altium Designer.";
+    const info = "I am quite familiar with Altium Designer as a PCB design tool. I am able to design schematic and footprints for different elements in this software and draw the final board schematic and design the PCB board itself with the help of this software.";
     const items = ["Altium Desinger"];
     changeInformationSkill('skill-electronics-information', header, info, items);
 });
@@ -106,7 +106,7 @@ $('#btn-skill-electronics-iot').on('click', function(){
 $('#btn-skill-electronics-fpga').on('click', function(){
     activeClassInSkills('btn-skill-electronics-fpga', "electronics");
     const header = "FPGA";
-    const info = "Similar to PCB Design, due to lack of performed projects, I'm not a skilled FPGA developer, but I know Verilog and VHDL.";
+    const info = "Due to lack of performed projects, I'm not a skilled FPGA developer, but I know Verilog and VHDL.";
     const items = ["VHDL", "Verilog"];
     changeInformationSkill('skill-electronics-information', header, info, items);
 });
@@ -114,8 +114,8 @@ $('#btn-skill-electronics-fpga').on('click', function(){
 $('#btn-skill-ml-ml').on('click', function(){
     activeClassInSkills('btn-skill-ml-ml', "ml");
     const header = "Machine Learning";
-    const info = "I have studied more than 2 years about Machine Learning and Deep Learning algorithms. Besides, I have a solid understanding of traditional digital image processing techniques.";
-    const items = ["Sci-Kit Learn / MLlib", "TensorFlow / PyTorch", "OpenCV"];
+    const info = "I am quite fond of artificial intelligence. Therefore, I have studied the related algorithms to become a master in this filed. Classical machine learning, deep learning, reinforcement learning, and natural language processing algorithms are the main topics I studied about in the last few years. I also have the experience to teach some of these algorithms to students. ";
+    const items = ["Sci-Kit Learn / MLlib", "TensorFlow / PyTorch", "OpenCV" , "NLTK / spaCy"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 
@@ -176,13 +176,6 @@ $('#btn-skill-programming-db').on('click', function(){
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
-$('#btn-skill-others-network').on('click', function(){
-    activeClassInSkills('btn-skill-others-network', "others");
-    const header = "Network";
-    const info = "I think every electronics engineer should familiarise himself/herself with Networking. I have a solid understanding of how Networking and the Internet work, how routers use IP addresses to route, etc. I'm also quite familiar with cryptography and network security protocols such as SSL/TLS and IPSec. I should state that I don't know much about configuring Cisco Routers (CCNA).";
-    changeInformationSkill('skill-others-information', header, info);
-});
-
 $('#btn-skill-others-git').on('click', function(){
     activeClassInSkills('btn-skill-others-git', "others");
     const header = "Git";
@@ -194,7 +187,7 @@ $('#btn-skill-others-comptia').on('click', function(){
     activeClassInSkills('btn-skill-others-comptia', "others");
     const header = "Agile Sofware Development";
     const info = "I recently studied about Agile Methodology and its frameworks. In my opinion, Agile is excellent, and I can adapt to a team, which uses this kind of methodology for development.";
-    const items = ["Agile Methodology", "Scrum", "Kanban"];
+    const items = ["Agile Methodology", "Scrum", "Kanban", "Jira"];
     changeInformationSkill('skill-others-information', header, info, items);
 });
 
