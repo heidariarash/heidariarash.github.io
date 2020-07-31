@@ -106,7 +106,7 @@ $('#btn-skill-electronics-iot').on('click', function(){
 $('#btn-skill-electronics-fpga').on('click', function(){
     activeClassInSkills('btn-skill-electronics-fpga', "electronics");
     const header = "FPGA";
-    const info = "Ähnlich wie Leiterplatten-Design bin ich aufgrund fehlender Projekte kein erfahrener FPGA-Entwickler, aber ich kenne Verilog und VHDL.";
+    const info = "Ich bin aufgrund fehlender Projekte kein erfahrener FPGA-Entwickler, aber ich kenne Verilog und VHDL.";
     const items = ["VHDL", "Verilog"];
     changeInformationSkill('skill-electronics-information', header, info, items);
 });
