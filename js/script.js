@@ -178,9 +178,10 @@ $('#btn-skill-programming-db').on('click', function(){
 
 $('#btn-skill-others-git').on('click', function(){
     activeClassInSkills('btn-skill-others-git', "others");
-    const header = "Git";
-    const info = "I have a solid understanding of Git and how it works. I usually work with Git with the help of CLI but I can imagine myself using the Git GUI as well.";
-    changeInformationSkill('skill-others-information', header, info);
+    const header = "DevOps Tools";
+    const info = "I have a solid understanding of Git and how it works. As a matter of facts (as it's obvious), I hosted my website on GitHub. I am also quite familiar with the Docker world.";
+    const items = ["Git", "Docker"];
+    changeInformationSkill('skill-others-information', header, info, items);
 });
 
 $('#btn-skill-others-comptia').on('click', function(){
