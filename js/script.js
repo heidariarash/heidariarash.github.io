@@ -114,7 +114,7 @@ $('#btn-skill-electronics-fpga').on('click', function(){
 $('#btn-skill-ml-ml').on('click', function(){
     activeClassInSkills('btn-skill-ml-ml', "ml");
     const header = "Machine Learning";
-    const info = "I am quite fond of artificial intelligence. Therefore, I have studied the related algorithms to become a master in this filed. Classical machine learning, deep learning, reinforcement learning, and natural language processing algorithms are the main topics I studied about in the last few years. I also have the experience to teach some of these algorithms to students. ";
+    const info = "I am quite fond of artificial intelligence. Therefore, I have studied the related algorithms to become a master in this filed. Computer vision, reinforcement learning, and natural language processing algorithms are the main topics I studied about in the last few years. I also have the experience to teach some of these algorithms to students. ";
     const items = ["Sci-Kit Learn / MLlib", "TensorFlow / PyTorch", "OpenCV" , "NLTK / spaCy"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
