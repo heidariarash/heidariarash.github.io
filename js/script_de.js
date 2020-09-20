@@ -115,7 +115,7 @@ $('#btn-skill-ml-ml').on('click', function(){
     activeClassInSkills('btn-skill-ml-ml', "ml");
     const header = "Maschinelles Lernen";
     const info = "Ich mag künstliche Intelligenz sehr gern. Daher habe ich die verwandten Algorithmen studiert, um ein Meister in diesem Bereich zu werden. Computer Vision, bestärkenden Lernen, GANs und Verarbeitung natürlicher Sprache sind die Hauptthemen, über die ich in den letzten Jahren studiert habe. Ich habe auch die Erfahrung, Studenten einige dieser Algorithmen beizubringen.";
-    const items = ["Sci-Kit Learn / MLlib", "TensorFlow / PyTorch", "OpenCV", "NLTK / spaCy"];
+    const items = ["Sci-Kit Learn / Spark MLlib", "TensorFlow / PyTorch / Keras", "OpenCV", "NLTK / spaCy"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
 
