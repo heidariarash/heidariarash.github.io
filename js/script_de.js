@@ -113,8 +113,8 @@ $('#btn-skill-electronics-fpga').on('click', function(){
 
 $('#btn-skill-ml-ml').on('click', function(){
     activeClassInSkills('btn-skill-ml-ml', "ml");
-    const header = "Maschinelles Lernen";
-    const info = "Ich mag künstliche Intelligenz sehr gern. Daher habe ich die verwandten Algorithmen studiert, um ein Meister in diesem Bereich zu werden. Computer Vision, bestärkenden Lernen, GANs und Verarbeitung natürlicher Sprache sind die Hauptthemen, über die ich in den letzten Jahren studiert habe. Ich habe auch die Erfahrung, Studenten einige dieser Algorithmen beizubringen.";
+    const header = "Machine Learning";
+    const info = "Ich mag künstliche Intelligenz sehr gern. Daher habe ich die verwandten Algorithmen studiert, um ein Meister in diesem Bereich zu werden. Computer Vision, Reinforcement Learning, GANs und Natural Language Processing sind die Hauptthemen, über die ich in den letzten Jahren studiert habe. Ich habe auch die Erfahrung, Studenten einige dieser Algorithmen beizubringen.";
     const items = ["Sci-Kit Learn / Spark MLlib", "TensorFlow / PyTorch / Keras", "OpenCV", "NLTK / spaCy"];
     changeInformationSkill('skill-ml-information', header, info, items);
 });
@@ -202,7 +202,7 @@ $('#btn-skill-others-linux').on('click', function(){
 $('#btn-skill-others-aws').on('click', function(){
     activeClassInSkills('btn-skill-others-aws', "others");
     const header = "Amazon Web Services";
-    const info = "AWS ist einer der besten Cloud-Services und wird von vielen Entwicklern für viele Zwecke verwendet. Ich bin mir bewusst, dass der einzige Zweck von AWS nicht das maschinelle Lernen ist, aber ich bin hauptsächlich mit den Diensten für maschinelles Lernen vertraut.";
+    const info = "AWS ist einer der besten Cloud-Services und wird von vielen Entwicklern für viele Zwecke verwendet. Ich bin mir bewusst, dass der einzige Zweck von AWS nicht das maschinelle Lernen ist, aber ich bin hauptsächlich mit den Diensten für Machine Learning vertraut.";
     const items = ["S3 / EC2 / IAM / RDS", "SageMaker / Athena / Glue / Kineses / QuickSight", "Rekongnition / Lex / Comprehend / ..."];
     changeInformationSkill('skill-others-information', header, info, items);
 });
