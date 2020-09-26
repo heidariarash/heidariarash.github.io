@@ -148,7 +148,7 @@ $('#btn-skill-programming-lang').on('click', function(){
     activeClassInSkills('btn-skill-programming-lang', "programming");
     const header = "Programmiersprachen";
     const info = "Ich kenne viele verschiedene Programmiersprachen für verschiedene Zwecke, von Coding für CLI- und GUI-Applications bis hin zum die GPU-Programmierung und Entwurf von Algorithmen für künstliche Intelligenz.";
-    const items = ["Python", "C / C++ / Cuda C", "JavaScript", "R", "Matlab", "Assembly"];
+    const items = ["Python", "C / C++ / Cuda C / Embedded C", "JavaScript", "R", "Matlab", "Assembly"];
     changeInformationSkill('skill-programming-information', header, info, items);
 });
 
