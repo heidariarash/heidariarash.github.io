@@ -562,6 +562,7 @@ section {
 
 .skill-information {
     background-color: #fff;
+    width: 50%;
     border-radius: 40px;
 }
 
@@ -577,30 +578,8 @@ section {
     padding: 20px 30px;
 }
 
-.skill-information-inner h4{
-    margin-bottom: 15px;
-}
-
-.skill-information-inner p{
-    font-size: 15px;
-}
-
-.skill-information-inner ul{
-    padding: 0;
-    list-style: none;
-}
-
-.skill-information-inner ul li{
-    font-size: 13px;
-    font-family: "Raleway", sans-serif;
-    margin: 0;
-}
-
-.skill-information-inner ul li:before {
-    content: '\27A4';
-    margin-left: -20px;
-    margin-right: 10px;
-    font-size: 14px;
+.skills-item {
+    margin-top: 15px;
 }
 
 @media only screen and (max-width: 925px){
@@ -613,6 +592,7 @@ section {
     .skill-information {
         margin-top: 10px;
         margin-bottom: 10px;
+        width: 100%;
     }
 }
 
@@ -700,6 +680,8 @@ section {
     -webkit-box-shadow: 0 0 20px #CA8020;
     box-shadow: 0 0 20px #CA8020;
 }
+
+
 /*************************************
              Experience
 *************************************/
