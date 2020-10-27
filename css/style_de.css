@@ -610,6 +610,7 @@ section {
 
 .skill-information {
     background-color: #fff;
+    width: 50%;
     border-radius: 40px;
 }
 
@@ -651,6 +652,10 @@ section {
     font-size: 14px;
 }
 
+.skills-item {
+    margin-top: 15px;
+}
+
 @media only screen and (max-width: 1068px){
     .skills-tab {
         border-radius: 50px;
@@ -661,6 +666,7 @@ section {
     .skill-information {
         margin-top: 10px;
         margin-bottom: 10px;
+        width: 100%;
     }
 }
 
