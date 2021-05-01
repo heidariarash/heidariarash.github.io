@@ -91,11 +91,30 @@ section {
     margin-bottom: 50px;
     display: inline-block;
     margin-top: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #home-heading-title span {
     text-shadow: 1px 2px 2px #212226;
 }
+
+.getintouch {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-height: 625px){
+    #home-heading-title {
+        /* margin-bottom: 100px; */
+    }
+}
+
+@media screen and (max-width: 484px){
+    #home-heading-name {
+        font-size: 40pt;
+    }
+}
+
 /*************************************
              Buttons
 *************************************/
