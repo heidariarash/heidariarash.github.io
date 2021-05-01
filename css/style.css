@@ -103,12 +103,6 @@ section {
     margin-bottom: 50px;
 }
 
-@media screen and (max-height: 625px){
-    #home-heading-title {
-        /* margin-bottom: 100px; */
-    }
-}
-
 @media screen and (max-width: 484px){
     #home-heading-name {
         font-size: 40pt;
