@@ -13,24 +13,28 @@
     <div class="page-container">
         <header class="registration-header">
             <h1>PhD Defense Registration</h1>
-            <p>Please fill out the form below to register for the public defense of Arash Heidari.</p>
+            <p>Please provide the following information to secure your spot at the defense. All fields marked with <span style="color: #e67e22;">*</span> are required.</p>
         </header>
+
+        <div class="intro-section">
+            <p>We're excited to have you join us for this important milestone! To help us prepare for the event and ensure we have adequate seating and refreshments, please let us know you're coming.</p>
+        </div>
 
         <main class="form-container">
             <form id="registrationForm">
                 <div class="form-group">
-                    <label for="name">Full Name:</label>
+                    <label for="name">Full Name <span class="required">*</span></label>
                     <input type="text" id="name" name="name" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Email Address:</label>
+                    <label for="email">Email Address <span class="required">*</span></label>
                     <input type="email" id="email" name="email" required>
                     <small class="error-message" id="emailError"></small>
                 </div>
 
                 <div class="form-group">
-                    <label>Will you attend the reception afterwards?</label>
+                    <label>Will you attend the reception afterwards? <span class="required">*</span></label>
                     <div class="radio-group">
                         <label for="receptionYes">
                             <input type="radio" id="receptionYes" name="reception" value="Yes" required> Yes
