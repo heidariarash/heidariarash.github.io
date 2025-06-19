@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhD Public Defense Invitation - Arash Heidari</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/defense-style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="defense-header">
+            <h1>You're Invited!</h1>
+            <p class="subtitle">To the Public Defense of the PhD Thesis by</p>
+            <h2>Arash Heidari</h2>
+        </header>
+
+        <main class="defense-main-content">
+            <div class="defense-main-grid">
+                <!-- Thesis Title Row -->
+                <div class="grid-row">
+                    <h3 class="grid-title">Thesis Title</h3>
+                    <div class="grid-content">
+                        <p class="thesis-title">"Targeting Evaluation, Computation, and Interaction Costs in Expensive Black-Box Multi-Objective Optimization"</p>
+                    </div>
+                </div>
+
+                <!-- Event Info Row -->
+                <div class="grid-row">
+                    <h3 class="grid-title">Details</h3>
+                    <div class="grid-content event-info">
+                        <div class="info-column">
+                            <h4>Date & Time</h4>
+                            <p>Wednesday, August 20, 2025</p>
+                            <p>10:00 AM (Your Timezone)</p>
+                        </div>
+                        <div class="info-column">
+                            <h4>Location</h4>
+                            <p>Auditorium 1 (first floor)</p>
+                            <p>Campus Ardoyen, iGent Tower</p>
+                            <p>Technologiepark-Zwijnaarde 126, 9052 Gent</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <!-- Registration Section -->
+            <section class="registration-section standalone">
+                <div class="button-container">
+                    <a href="registration-page.html" class="register-button">Register to Attend</a>
+                    <a href="https://teams.microsoft.com/v2/?meetingjoin=true#/l/meetup-join/19:meeting_ZmQ4ZjgzMDQtN2VhYS00MGUzLTk3Y2YtNTA3MTQ5NTE0MjE0@thread.v2/0?context=%7b%22Tid%22%3a%22d7811cde-ecef-496c-8f91-a1786241b99c%22%2c%22Oid%22%3a%22d48f5073-28ee-42d0-8fe0-c43e5323d796%22%7d&anon=true&deeplinkId=7236433e-0afb-404c-bbfb-de90907b8325" class="livestream-button">Access Livestream</a>
+                </div>
+                <p class="registration-note">Registration is appreciated for in-person attendance.</p>
+            </section>
+
+            <div class="defense-main-grid">
+                 <!-- Map Row -->
+                <div class="grid-row">
+                    <h3 class="grid-title">Find Us Here</h3>
+                    <div class="grid-content">
+                        <div class="map-embed">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.6117500000003!2d3.7054055156900003!3d51.012913079556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c37394471881e3%3A0xa19256caf7c2fad1!2sIDLab%2C%20Ghent%20University%20-%20imec!5e0!3m2!1sen!2sbe!4v1620000000000!5m2!1sen!2sbe" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="IDLab, Ghent University - imec Location Map">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </main>
+        
+        <footer class="defense-footer">
+            <p>&copy; <span id="currentYearDefense"></span> Arash Heidari. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentYear = new Date().getFullYear();
+            const yearSpan = document.getElementById('currentYearDefense');
+            if (yearSpan) {
+                yearSpan.textContent = currentYear;
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,129 +1,134 @@
-/*************************************
-            Default Theme
-        ---------------------
-        Fonts:  Railway
-                Courgette
-                Parisienne
-        
-        Colors: Yellow: #F4C613
-                Smokey: #212226
-                Orange: #CA8020  
-                White:  #F4F4F4
-                Gray:   #505050
-
-*************************************/
-
-/*************************************
-             Html, Body
-*************************************/
-html, body {
-    height: 100%;
-}
-
-body {
-    color: #212226;
-}
-h1 {
-    font-family: "Parisienne", sans-serif;
-}
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Courgette", sans-serif;
-}
-
-p,
-a {
-    font-family: "Raleway", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #212226;
-}
-
-section {
-    background: #fff;
-    overflow: hidden;
-}
-
-/*************************************
-             Home Page
-*************************************/
-#home {
-    background: none;
-    height: 100%;
-}
-
-#home-background {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    background-size: cover;
-}
-
-#home-content {
-    width: 100%;
-    height: 100%;
-    display: table;
-}
-
-#home-content-inner {
-    display: table-cell;
-}
-
-#home-heading-title{
-    margin-bottom: 150px;
-}
-
-#home-heading-name {
-    color: #212226;
-    font-size: 80px;
+body, html {
     margin: 0;
-    margin-bottom: 50px;
+    padding: 0;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #333; 
+    background-color: #f4f4f4; 
+    background-image: url('../gallery/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.content-container {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2em;
+    margin-bottom: 0.2em;
+    font-weight: 600; /* Adjusted weight for a more modern feel */
+    letter-spacing: 0.5px;
+    color: #222; 
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    margin-bottom: 2.8em; /* Increased space below "AI Researcher" */
+    color: #555; 
+    font-weight: 400;
+}
+
+.social-links a {
+    margin: 0 15px; 
     display: inline-block;
-    margin-top: 15%;
-    margin-left: 10px;
-    margin-right: 10px;
+    color: #333; 
 }
 
-#home-heading-title span {
-    text-shadow: 1px 2px 2px #212226;
+.social-links svg {
+    width: 32px; 
+    height: 32px;
+    fill: currentColor;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.getintouch {
-    margin-bottom: 50px;
+.social-links a:hover svg {
+    transform: scale(1.1);
+    color: #007bff; /* Keeping a subtle color change for icons, can be changed to #555 or #333 if preferred */
 }
 
-@media screen and (max-width: 484px){
-    #home-heading-name {
-        font-size: 40pt;
+.cv-download {
+    margin-top: 30px;
+}
+
+.text-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    color: #555; /* Same color as the title or use #333 for main text color */
+    text-decoration: none;
+    font-weight: 400;
+    padding: 5px 0;
+    display: inline-block; /* Important for transform to work correctly */
+    transition: color 0.3s ease, transform 0.2s ease, text-decoration-color 0.3s ease;
+}
+
+.text-link:hover {
+    color: #333; /* Darken slightly on hover */
+    transform: scale(1.05); /* Text grows slightly on hover */
+    text-decoration: underline;
+    text-decoration-color: #333; /* Underline appears on hover */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+    color: #666; 
+    margin-top: auto; 
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .page-wrapper {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2.6em;
+    }
+    .title {
+        font-size: 1.4em;
+        margin-bottom: 2.2em; /* Adjust spacing for smaller screens */
+    }
+    .social-links svg {
+        width: 28px;
+        height: 28px;
+    }
+    .social-links a {
+        margin: 0 10px;
+    }
+    .text-link {
+        font-size: 1em;
     }
 }
 
-/*************************************
-             Buttons
-*************************************/
-.contact{
-    margin-left: 20px;
-    margin-right: 20px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-.contact-icon{
-    filter: drop-shadow(0px 0px 5px #777005)
-}
-
-.contact:hover,
-.contact:focus{
-    color: #0077B5;
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.2em;
+    }
+    .title {
+        font-size: 1.2em;
+        margin-bottom: 2em; /* Adjust spacing for smaller screens */
+    }
+    .social-links svg {
+        width: 26px;
+        height: 26px;
+    }
 }
