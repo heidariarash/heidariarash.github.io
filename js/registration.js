@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const receptionError = document.getElementById('receptionError');
 
     // IMPORTANT: Replace with YOUR Google Apps Script Web App URL
-    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz9HOSke2oUAmcKOR6d-XDwjpHfrk3KI0SzGK-7Ul3K7QVEjK132obmdDALleEFvM0O/exec"; 
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz9HOSke2oUAmcKOR6d-XDwjpHfrk3KI0SzGK-7Ul3K7QVEjK132obmdDALleEFvM0O/exec";
 
     form.addEventListener('submit', function(e) {
         e.preventDefault(); // Prevent default form submission
